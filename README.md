@@ -1,11 +1,11 @@
 # OmniFood Backend 
 A backend infrastructure for a fictional restraunt Omnifood using FastAPI. A feature complete backend with CI/CD, microservices and containers, deployed on Kubernetes (minikube).
 
-![deployment](frontend/img/deployment.png)
+![deployment](public/deployment.png)
 
 The frontend was developed by... Using HTML, CSS and JS. It was dockerized and runs in an nginx server. Nginx is used as a static server and reverse proxy for the backend. The backend pods are not exposed to external communication, the only access to the custer is through the frontend. The frontend is exposed by an ingress connection on the frontend service listening at port 80.
 
-![frontend](frontend/img/frontend.png)
+![frontend](public/frontend.png)
 
 The backend comprises of two FastAPI servers connected to a postgresql database in the cluster.
 
@@ -31,7 +31,6 @@ The Recipe microservice provides endpoints for creating, modifying and accessing
 ```json
 {
     "name":"Spanish Paella Valenciana",
-    "id":11,
     "nutriscore":70,
     "tags":"",
     "image":"img/meals/chicken.jpg",
