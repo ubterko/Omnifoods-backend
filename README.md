@@ -12,9 +12,13 @@ The backend comprises of two FastAPI servers connected to a postgresql database 
 ## Technologies 
 
 👌 Frontend (CSS, HTML, JavaScript)
+
 ☢️ FastAPI (Python Backend with CORS enabled) 
+
 ♨️ Microservices 
+
 🌠 Kubernetes clusters
+
 ❤️ CI/CD (Github Actions) 
 
 ## Microservices 
