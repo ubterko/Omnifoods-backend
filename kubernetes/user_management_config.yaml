@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment 
+metadata:
+  name: user-management
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: user-management 
+  template:
+    metadata:
+      labels: 
+        app: user-management 
+    spec:
+      containers:
+        - name: user-management 
+          image: omnifoods-user-management:local 
+          imagePullPolicy: Never
+          ports: 
+            - containerPort: 8000 
+          env: 
+          - name: POSTGRES_DB 
+            valueFrom: 
+              secretKeyRef:
+                name: postgres-secret 
+                key: postgres_db 
+          - name: POSTGRES_USER 
+            valueFrom: 
+              secretKeyRef: 
+                name: postgres-secret 
+                key: postgres_user 
+          - name: POSTGRES_PASSWORD 
+            valueFrom: 
+              secretKeyRef: 
+                name: postgres-secret 
+                key: postgres_password
+--- 
+apiVersion: v1 
+kind: Service 
+metadata: 
+  name: user-management-service 
+spec: 
+  selector:
+      app: user-management
+  ports:
+    - port: 8050 
+      targetPort: 8000

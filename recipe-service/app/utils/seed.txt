@@ -1,0 +1,168 @@
+Name - Spicy Thai Green Curry
+Calories - 710
+NutriScore - 68
+Rating - 4.7
+Voting - 489
+Tags - paleo
+Image - img/meals/thai.jpg
+Name - Italian Margherita Pizza
+Calories - 780
+NutriScore - 72
+Rating - 4.8
+Voting - 652
+Tags - vegetarian
+Image - img/meals/pizza.jpg
+Name - Mexican Chicken Enchiladas
+Calories - 820
+NutriScore - 65
+Rating - 4.6
+Voting - 421
+Tags - paleo
+Image - img/meals/chicken.jpg
+Name - Greek Spinach Spanakopita
+Calories - 560
+NutriScore - 80
+Rating - 4.7
+Voting - 370
+Tags - vegetarian
+Image - img/meals/spinach.jpg
+Name - Indian Butter Chicken
+Calories - 900
+NutriScore - 60
+Rating - 4.9
+Voting - 893
+Tags - paleo
+Image - img/meals/butter.jpg
+Name - French Ratatouille
+Calories - 430
+NutriScore - 90
+Rating - 4.8
+Voting - 319
+Tags - vegan
+Image - img/meals/gyozas.jpg
+Name - Korean Beef Bulgogi
+Calories - 850
+NutriScore - 66
+Rating - 4.6
+Voting - 512
+Tags - paleo
+Image - img/meals/chicken.jpg
+Name - American BBQ Ribs
+Calories - 1100
+NutriScore - 52
+Rating - 4.5
+Voting - 603
+Tags - paleo
+Image - img/meals/chicken.jpg
+Name - Moroccan Chickpea Tagine
+Calories - 540
+NutriScore - 85
+Rating - 4.7
+Voting - 354
+Tags - vegan
+Image - img/meals/spinach.jpg
+Name - Vietnamese Pho Ga
+Calories - 470
+NutriScore - 78
+Rating - 4.8
+Voting - 443
+Tags - paleo
+Image - img/meals/chicken.jpg
+Name - Spanish Paella Valenciana
+Calories - 790
+NutriScore - 70
+Rating - 4.6
+Voting - 502
+Tags - 
+Image - img/meals/chicken.jpg
+Name - Chinese Kung Pao Chicken
+Calories - 760
+NutriScore - 64
+Rating - 4.5
+Voting - 577
+Tags - paleo
+Image - img/meals/chicken.jpg
+Name - Brazilian Feijoada
+Calories - 980
+NutriScore - 58
+Rating - 4.4
+Voting - 288
+Tags - 
+Image - img/meals/chicken.jpg
+Name - Turkish Lamb Kofta
+Calories - 820
+NutriScore - 69
+Rating - 4.6
+Voting - 323
+Tags - paleo
+Image - img/meals/chicken.jpg
+Name - Ethiopian Doro Wat
+Calories - 740
+NutriScore - 71
+Rating - 4.7
+Voting - 276
+Tags - paleo
+Image - img/meals/chicken.jpg
+Name - German Sauerbraten
+Calories - 790
+NutriScore - 67
+Rating - 4.4
+Voting - 249
+Tags - 
+Image - img/meals/chicken.jpg
+Name - Lebanese Fattoush Salad
+Calories - 420
+NutriScore - 88
+Rating - 4.8
+Voting - 312
+Tags - vegan
+Image - img/meals/chicken.jpg
+Name - Peruvian Lomo Saltado
+Calories - 830
+NutriScore - 62
+Rating - 4.5
+Voting - 293
+Tags - 
+Image - img/meals/chicken.jpg
+Name - Russian Beef Stroganoff
+Calories - 870
+NutriScore - 59
+Rating - 4.4
+Voting - 339
+Tags - 
+Image - img/meals/chicken.jpg
+Name - Jamaican Jerk Chicken
+Calories - 810
+NutriScore - 68
+Rating - 4.7
+Voting - 377
+Tags - paleo
+Image - img/meals/chicken.jpg
+Name - Swedish Meatballs
+Calories - 760
+NutriScore - 63
+Rating - 4.6
+Voting - 411
+Tags - 
+Image - img/meals/chicken.jpg
+Name - Filipino Chicken Adobo
+Calories - 780
+NutriScore - 66
+Rating - 4.7
+Voting - 435
+Tags - paleo
+Image - img/meals/chicken.jpg
+Name - Hungarian Goulash
+Calories - 800
+NutriScore - 65
+Rating - 4.5
+Voting - 359
+Tags - 
+Image - img/meals/chicken.jpg
+Name - Australian Lamingtons
+Calories - 510
+NutriScore - 55
+Rating - 4.3
+Voting - 267
+Tags - vegetarian
+Image - img/meals/chicken.jpg

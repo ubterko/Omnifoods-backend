@@ -1,0 +1,48 @@
+apiVersion: apps/v1 
+kind: Deployment 
+metadata:
+  name: recipe
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: recipe  
+  template: 
+    metadata: 
+      labels: 
+        app: recipe 
+    spec: 
+      containers: 
+      - name: recipe
+        image: omnifoods-recipe:local 
+        imagePullPolicy: Never
+        ports: 
+          - containerPort: 8000
+        env:
+        - name: POSTGRES_DB 
+          valueFrom:
+            secretKeyRef: 
+              name: postgres-secret 
+              key: postgres_db 
+        - name: POSTGRES_USER 
+          valueFrom:
+            secretKeyRef: 
+              name: postgres-secret 
+              key: postgres_user
+        - name: POSTGRES_PASSWORD
+          valueFrom:
+            secretKeyRef: 
+              name: postgres-secret 
+              key: postgres_password
+
+--- 
+apiVersion: v1 
+kind: Service 
+metadata: 
+  name: recipe-service 
+spec: 
+  selector:
+      app: recipe
+  ports:
+    - port: 8000 
+      targetPort: 8000 
