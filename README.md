@@ -1,13 +1,13 @@
 # OmniFood Backend 
-A backend infrastructure for a fictional restraunt Omnifood using FastAPI. A feature complete backend with CI/CD, microservices and containers, deployed on Kubernetes (minikube).
+A backend infrastructure for a fictional restaurant, Omnifood, using FastAPI. A feature-complete backend with CI/CD, microservices, and containers, deployed on Kubernetes (minikube).
 
 ![deployment](public/deployment.png)
 
-The frontend was developed by... Using HTML, CSS and JS. It was dockerized and runs in an nginx server. Nginx is used as a static server and reverse proxy for the backend. The backend pods are not exposed to external communication, the only access to the custer is through the frontend. The frontend is exposed by an ingress connection on the frontend service listening at port 80.
+The frontend was developed using HTML, CSS, and JS as part of a Udemy course taught by Jonas Schmedtmann. It was dockerized and runs on an Nginx server. Nginx is used as a static server and reverse proxy for the backend. The backend pods are not exposed to external communication; the only access to the cluster is through the frontend. The frontend is exposed by an ingress connection on the frontend service listening at port 80.
 
 ![frontend](public/frontend.png)
 
-The backend comprises of two FastAPI servers connected to a postgresql database in the cluster.
+The backend comprises two FastAPI servers connected to a PostgreSQL database in the cluster.
 
 ## Technologies 
 
@@ -23,7 +23,7 @@ The backend comprises of two FastAPI servers connected to a postgresql database 
 
 ## Microservices 
 ### Recipe 
-The Recipe microservice provides endpoints for creating, modifying and accessing Recipe object. It has the following endpoints.
+The Recipe microservice provides endpoints for creating, modifying, and accessing Recipe objects. It has the following endpoints.
 
 - `GET /api/v1/recipes` - Get all Recipes
 - `GET /api/v1/recipes/{recipe_id}` - Get a specific Recipe
